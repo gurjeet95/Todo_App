@@ -45,7 +45,6 @@ function add() {
 
 function storeadd(item) {
   let keyposition = ls.length
-  console.log(keyposition)
   if (keyposition == 0) {
     ls.setItem(keyposition, JSON.stringify(item))
     return keyposition
